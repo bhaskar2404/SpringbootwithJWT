@@ -33,5 +33,7 @@ public class WelcomeController {
             throw new Exception("inavalid username/password");
         }
         return jwtUtil.generateToken(authRequest.getUserName());
+    		
     }
+    	
 }
